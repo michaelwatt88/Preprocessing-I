@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.bodycontainer {
+  width: 1040px;
+  height: auto;
+}
+.navigation {
+  background-color: #482728;
+  width: 90%;
+  height: 100px;
+  margin: 5%;
+}
+.headertext {
+  font-size: 32px;
+  font-family: 'Oswald', serif;
+  text-transform: uppercase;
+}
+.headerspacing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5%;
+  padding: 2.5%;
+}
+.headerspacing2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+  padding: 2.5%;
+}
+.navigation ul {
+  background-color: #482728;
+  font-size: 32px;
+  font-family: 'Oswald', serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5%;
+  padding: 2.5%;
+}
+.fullcontainer {
+  width: 90%;
+  height: auto;
+  margin: 5%;
+  background-color: #7E4E60;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.profilepic {
+  width: 40%;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.JohnnyA {
+  font-size: 32px;
+  font-family: 'Oswald', serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+  padding: 2.5%;
+}
+.button {
+  height: 50%;
+  width: 50%;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.fullwidth {
+  width: 90%;
+  height: auto;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.halfcontainer {
+  width: 40%;
+  margin: 5%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+}
+.halfcontainertext {
+  font-size: 32px;
+  font-family: 'Oswald', serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5%;
+  padding: 2.5%;
+}
+.table {
+  border: 2px solid black;
+  border-collapse: separate;
+  border-spacing: 15px 50px;
+  font-size: 32px;
+  font-family: 'Oswald', serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+  padding: 2.5%;
+}
+.table td {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+}
+.footer {
+  width: 90%;
+  margin: 5%;
+  background-color: #7E4E60;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #B287A3;
+  height: auto;
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+}

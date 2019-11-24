@@ -58,58 +58,86 @@ html, body {
 }
 
 @margin: 5%;
+@backgroundnavfoot:#482728;
+@backgrounddiv1: #7E4E60;
+@backgrounddiv2: #B287A3;
 
-p{
-	margin: @margin;
-}
+
+
+
+
 
 .bodycontainer{
 	width: 1040px;
 	height: auto;
 }
 
-.navigation{
+
+	.navigation{
+	background-color: @backgroundnavfoot;
 	width: 90%;
 	height: 100px;
 	margin: @margin;
-}
+	}
 
-.navigation ul{
-	display:flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
+	.headertext{
+		font-size: 32px;
+		font-family: 'Oswald', serif;
+		text-transform: uppercase;
+	}
 
-.fullcontainer{
+	.headerspacing{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: @margin;
+		padding: 2.5%;
+	}
+
+	.headerspacing2{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: @margin;
+		padding: 2.5%;
+	}
+
+	.navigation ul{
+		background-color: @backgroundnavfoot;
+		.headertext();
+		.headerspacing();
+	
+	}
+
+
+
+	.fullcontainer{
 	width: 90%;
 	height: auto;
 	margin: @margin;
-	background-color: gray;
+	background-color: @backgrounddiv1;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-}
+	}
 	
 	
 
-.profilepic{
+	.profilepic{
 	width: 40%;
 	margin: @margin;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;	
-}
+	}
+
+	.JohnnyA{
+		.headertext();
+		.headerspacing2();
+	}
 
 
-.headertext {
-	width: 40%;
-	margin: @margin;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.button{
+	.button{
 	height: 50%;
 	width: 50%;
 	margin: @margin;
@@ -117,38 +145,55 @@ p{
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-}
+	}
 
-.fullwidth{
+	.fullwidth{
 	width: 90%;
 	height: auto;
 	margin: @margin;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-}
+	}
 	
 
-.halfcontainer{
+	.halfcontainer{
 	width: 40%;
 	margin: @margin;
 	background-color: bisque;
 	display: flex;
 	flex-direction: column;
-}
+	}
 
-.basictable{
-	width: 90%;
-	margin: @margin;
-	border
-}
+	.halfcontainertext{
+		.headertext();
+		.headerspacing();
+	}
 
-.table{
+	
+	.table{
 	border: 2px solid black;
 	border-collapse: separate;
-  	border-spacing: 15px 50px;
+	border-spacing: 15px 50px;
+	margin: @margin;
+	.headertext();
+	.headerspacing2();
+	}
+
+	.table td{
+		font-family: 'Cardo', serif;
+		font-size: 20px;
+	}
+
+.footer{
+	.fullcontainer();
+	background-color: @backgrounddiv2;
+	height: auto;
+	font-family: 'Cardo', serif;
+	font-size: 20px;
+
 }
-  
+
   
 
 
